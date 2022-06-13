@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/after_noon"
+    tools:context=".RegistrationPage">
+
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/regimg"
+        app:layout_constraintBottom_toTopOf="@+id/username_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username_register"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/round_text_field"
+        android:drawableStart="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="10sp"
+        android:hint="@string/user_name"
+        android:padding="15sp"
+        android:textColorHint="#3C3C3C"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_Button"
+        android:layout_width="300sp"
+        android:layout_height="48dp"
+        android:background="@drawable/corners"
+        android:text="@string/register_btn"
+        android:textColor="@color/white"
+        app:cornerRadius="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/con_password_register"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <EditText
+        android:id="@+id/email_register"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_text_field"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10sp"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:padding="15sp"
+        android:textColorHint="#3C3C3C"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_register" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password_register"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_text_field"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10sp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="15sp"
+        android:textColorHint="#3C3C3C"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_register" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/con_password_register"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/round_text_field"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10sp"
+        android:hint="@string/con_pass"
+        android:inputType="textPassword"
+        android:padding="15sp"
+        android:textColorHint="#3C3C3C"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_register" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

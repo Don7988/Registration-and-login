@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DuduBooks</string>
+    <string name="name_app">DuDuBooks</string>
+    <string name="title">True learning companion</string>
+    <string name="register_btn">Register</string>
+    <string name="login_btn">Login</string>
+    <string name="user_name">  User name</string>
+    <string name="password">  Password</string>
+    <string name="email_id">Email</string>
+    <string name="phone_number">Phone</string>
+    <string name="con_pass">Confirm password</string>
+    <string name="description">Register and expand your knowledge with DuDuBooks</string>
+    <string name="forget">Forgot password?</string>
+    <string name="register_bold_font"><b> Create an account.</b></string>
+    <string name="first_page_title"><b><i><u>Forgot password</u></i></b></string>
+    <string name="reg_title">"Join Now"</string>
+    <string name="or">OR</string>
+    <string name="facebookBtn">Facebook Login</string>
+    <string name="google_btn">Google Login</string>
+    <string name="reset_password">Reset password</string>
+    <string name="explore_your_imagination">Explore your Imagination</string>
+    <string name="person_name">Person name</string>
+    <string name="details">Details</string>
+    <string name="view_documents">View Documents</string>
+</resources>
